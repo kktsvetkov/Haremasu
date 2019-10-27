@@ -56,3 +56,12 @@ HAREMASU: export svn to git
  < [5/5] r105071 | Mrasnika | Wed, 25 Mar 2009 12:50:53 +0000
 ```
 You can see the result at https://github.com/kktsvetkov/wp-hefo/commits/master
+
+# Partial History Exports
+
+You can export only a file or a folder from subversion/svn. You just need to
+use the svn source URL to point to that file or folder. Here are few examples:
+```
+php haremasu.php ~/svn.wp-hefo/trunk/hefo.php ~/github.wp-hefo/
+php haremasu.php http://plugins.svn.wordpress.org/wp-hefo/tags/0.2/hefo.php ~/github.wp-hefo/
+```
