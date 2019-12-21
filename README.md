@@ -2,6 +2,8 @@
 
 Quick and dirty PHP svn-to-git script: it exports subversion history into git
 
+![Haremasu](https://repository-images.githubusercontent.com/217899282/2b2c5580-ffb5-11e9-9b23-e975fde7cb96)
+
 # What it does ?
 
 The `haremasu.php` script is simply a shortcut between `svn` and `git` commands.
